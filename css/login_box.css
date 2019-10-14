@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'ionicons';
+    src: url('../fonts/ionicons.eot') format('embedded-opentype');
+url('../fonts/ionicons.ttf') format('truetype');
+url('../fonts/ionicons.woff') format('woff');
+url('../fonts/ionicons.svg') format('svg');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman";
+    background-size: cover;
+ background-image: url("../img/macbook-1366x768-notebook-laptop-apple-hd-5k-9657.jpeg");
+}
+.login_box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(72%,-62%);
+    color: white;
+}
+.login_box h1{
+    float: left;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 4px solid #4caf50;
+    margin-bottom: 30px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #4caf50;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: -35px 35px;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 35px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #4caf50;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+    cursor: pointer;
+}
